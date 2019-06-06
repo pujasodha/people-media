@@ -32,8 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # gem for styling
-gem 'bootstrap-sass', '~> 3.3.6'
-gem 'sass-rails', '~> 5.0'
+gem 'bootstrap', '~> 4.0.0.alpha3'
 
 gem 'jquery-rails'
 
