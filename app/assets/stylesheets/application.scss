@@ -2,9 +2,6 @@
 //Bootstrap
 @import "bootstrap";
 
-// Variables
-@import "./base/variables.scss";
-
-// Partials
-@import "./partials/layout/navigation.scss";
-
+nav {
+    background-color: green;
+}
