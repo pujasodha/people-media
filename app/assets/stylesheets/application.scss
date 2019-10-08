@@ -1,7 +1,10 @@
 //Bootstrap
 @import "bootstrap";
+@import "./base/variables.scss";
+@import "./base/default.scss";
 @import "./partials/layout/navigation.scss";
 @import "./partials/layout/signup.scss";
+
 
 body {
     margin: 50px 1em 1em 1em;

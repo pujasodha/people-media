@@ -1,4 +1,5 @@
 <div class="container" id="sign-up-form">
+  <div class="row">
 
     <div class="text-center">
       <h1>Meet People with Common Interests</h1>
@@ -6,8 +7,7 @@
       <h3>Sign Up Now, for Free!</h3>
     </div>
 
-    <div class="col-md-*">
-      
+    <div class="col-sm-offset-4 col-sm-4">      
         <%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
           <%= f.text_field :name, placeholder: 'username', class: 'form-control' %>
           <%= f.email_field :email, autofocus: true, class: 'form-control', placeholder: 'email' %>
@@ -18,5 +18,6 @@
           <%= f.submit "Log in", class: 'form-control login-button' %>
         <% end %>
 
+    </div>
     </div>
 </div>

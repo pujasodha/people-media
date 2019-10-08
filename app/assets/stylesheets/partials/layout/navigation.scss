@@ -1,19 +1,11 @@
-nav {
-    .navbar-header {
-        width: 100%;
+.navbar-default,
+.navbar-toggle:focus,
+.collapsed,
+button.navbar-toggle {
+    background: $navbarColor !important;
+    border: none;
 
-        button,
-        .navbar-brand {
-            transition: opacity 0.15s;
-        }
-
-        button {
-            margin-right: 0;
-        }
-
-        button:hover,
-        .navbar-brand:hover {
-            opacity: 0.8;
-        }
+    a {
+        color: white !important;
     }
 }
