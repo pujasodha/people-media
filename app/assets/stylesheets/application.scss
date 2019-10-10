@@ -5,6 +5,10 @@
 @import "./partials/layout/navigation.scss";
 @import "./partials/layout/signup.scss";
 
+// Media queries for a responsive design
+@import "./responsive/desktop.scss";
+@import "./responsive/mobile.scss";
+
 
 body {
     margin: 50px 1em 1em 1em;
