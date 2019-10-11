@@ -2,30 +2,44 @@
 .navbar-toggle:focus,
 .collapsed,
 button.navbar-toggle {
-    background: $navbarColor !important;
+    background: $navbarColor;
     border: none;
 
     a {
-        color: white !important;
+        color: white;
     }
 }
 
 nav {
+    background: $navbarColor;
+    color: white;
 
     .col-sm-5,
     .col-sm-7 {
         padding: 0;
     }
+
+    padding: 10px 10px 10px 25px !important;
+
 }
+
+
 
 .desktop-menu {
     margin-right: 10px;
+    color: white;
+
+    li {
+        color: white;
+    }
+}
+
+.navbar-brand {
+    color: white !important;
 }
 
 .mobile-menu {
-    i {
-        color: white;
-    }
+    color: white;
 
     ul {
         padding: 0px;
@@ -33,7 +47,6 @@ nav {
 
     a {
         display: block;
-        padding: 10px 0px 10px 25px !important;
     }
 
     a:hover {
@@ -46,9 +59,10 @@ nav {
     }
 }
 
-.icon-bar {
-    background-color: white !important;
+.sign-in-menu {
+    color: white;
 }
+
 
 .active a {
     background: $navbarColor !important;
@@ -61,7 +75,7 @@ nav {
     border: none;
 }
 
-.dropdown-menu a:hover {
-    color: black !important;
-    background: white !important;
+
+.navbar-toggler {
+    background-color: white;
 }
