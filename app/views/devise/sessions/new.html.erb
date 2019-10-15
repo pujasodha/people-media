@@ -1,13 +1,10 @@
-<div class="container" id="sign-up-form">
+<div class="container card" id="sign-up-form">
   <div class="row">
 
-    <div class="text-center">
-      <h1>Meet People with Common Interests</h1>
-      <h3>Get a New Pal to Study and Create With </h3>
-      <h3>Sign Up Now, for Free!</h3>
-    </div>
+  
 
-    <div class="sign-up-fields col-sm-offset-4 col-sm-4">      
+    <div class="sign-up-fields col-sm-offset-6 col-sm-6 ">     
+    <h2 class = text-center>Log In</h2> 
         <%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
           <%= f.text_field :name, placeholder: 'username', class: 'form-control' %>
           <%= f.email_field :email, autofocus: true, class: 'form-control', placeholder: 'email' %>
