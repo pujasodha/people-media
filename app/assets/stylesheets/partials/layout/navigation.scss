@@ -6,20 +6,20 @@ button.navbar-toggle {
     border: none;
 
     a {
-        color: white;
+        color: #FCFAFA;
     }
 }
 
 nav {
     background: $navbarColor;
-    color: white;
+    color: #FCFAFA;
 
     .col-sm-5,
     .col-sm-7 {
         padding: 0;
     }
 
-    padding: 10px 10px 10px 25px !important;
+    padding: 10px 10px 10px 25px;
 
 }
 
@@ -27,19 +27,19 @@ nav {
 
 .desktop-menu {
     margin-right: 10px;
-    color: white;
+    color: #FCFAFA;
 
     li {
-        color: white;
+        color: #FCFAFA;
     }
 }
 
 .navbar-brand {
-    color: white !important;
+    color: #FCFAFA;
 }
 
 .mobile-menu {
-    color: white;
+    color: #FCFAFA;
 
     ul {
         padding: 0px;
@@ -50,8 +50,8 @@ nav {
     }
 
     a:hover {
-        background: white !important;
-        color: black !important;
+        background: #FCFAFA;
+        color: black;
 
         i {
             color: black;
@@ -59,23 +59,20 @@ nav {
     }
 }
 
-.sign-in-menu {
-    color: white;
-}
 
 
 .active a {
-    background: $navbarColor !important;
-    border-bottom: solid 5px white;
+    background: $navbarColor;
+    border-bottom: solid 5px #FCFAFA;
 }
 
 .dropdown-toggle,
 .dropdown-menu {
-    background: $navbarColor !important;
+    background: $navbarColor;
     border: none;
 }
 
 
 .navbar-toggler {
-    background-color: white;
+    background-color: #FCFAFA;
 }
