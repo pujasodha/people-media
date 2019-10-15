@@ -7,7 +7,7 @@ RSpec.feature "Logout", :type => :feature do
         sign_in user
         visit root_path
         find('nav #user-settings').click
-        find('nav a', text: 'Log out').click
+        find('.logout-link', text: 'Log out').click
         expect(page).to have_selector('nav a', text: 'Login')
     end
 
