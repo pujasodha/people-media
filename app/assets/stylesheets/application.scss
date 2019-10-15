@@ -22,6 +22,14 @@ button.navbar-toggle {
     border: none;
 
     a {
-        color: white !important;
+        color: #FCFAFA;
+    }
+}
+
+.link {
+    color: #FCFAFA;
+
+    .link:hover {
+        color: #74C8CD;
     }
 }
