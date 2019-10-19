@@ -1,7 +1,10 @@
-require 'test_helper'
+require 'rails_helper'
 
-class CategoryTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+RSpec.describe Category, type: :model do
+  context 'Associations' do
+    it 'has_many posts' do
+      association = described_class.reflect_on_association(:posts)
+      expect(association.macro).to eq :has_many
+    end
+  end
 end
