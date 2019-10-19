@@ -27,19 +27,23 @@ nav .link:hover {
     color: #2F5D9F
 }
 
-
 .desktop-menu {
     margin-right: 10px;
     color: #FCFAFA;
+}
 
+nav,
+.navbar-nav {
     li {
-        color: #FCFAFA;
+        font-size: 1em;
+        padding: 10px;
     }
 }
 
 .navbar-brand {
+    color: #FCFAFA !important;
     font-size: 2em;
-    padding-right: 1em;
+    padding: 0 1em;
 }
 
 .mobile-menu {
