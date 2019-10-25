@@ -6,13 +6,13 @@ button.navbar-toggle {
     border: none;
 
     a {
-        color: #FCFAFA;
+        color: #C9A194;
     }
 }
 
 nav {
     background: $navbarColor;
-    color: #FCFAFA;
+    color: #C9A194;
 
     .col-sm-5,
     .col-sm-7 {
@@ -29,7 +29,7 @@ nav .link:hover {
 
 .desktop-menu {
     margin-right: 10px;
-    color: #FCFAFA;
+    color: #C9A194;
 }
 
 nav,
@@ -41,13 +41,13 @@ nav,
 }
 
 .navbar-brand {
-    color: #FCFAFA !important;
+    color: #C9A194 !important;
     font-size: 2em;
     padding: 0 1em;
 }
 
 .mobile-menu {
-    color: #FCFAFA;
+    color: #C9A194;
 
     ul {
         padding: 0px;
@@ -58,7 +58,7 @@ nav,
     }
 
     a:hover {
-        background: #FCFAFA;
+        background: #C9A194;
         color: black;
 
         i {
@@ -71,7 +71,7 @@ nav,
 
 .active a {
     background: $navbarColor;
-    border-bottom: solid 5px #FCFAFA;
+    border-bottom: solid 5px #C9A194;
 }
 
 .dropdown-toggle,
@@ -82,5 +82,5 @@ nav,
 
 
 .navbar-toggler {
-    background-color: #FCFAFA;
+    background-color: #C9A194;
 }
