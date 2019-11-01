@@ -6,13 +6,13 @@ button.navbar-toggle {
     border: none;
 
     a {
-        color: #C9A194;
+        color: #F3EFEA;
     }
 }
 
 nav {
     background: $navbarColor;
-    color: #C9A194;
+    color: #F3EFEA;
 
     .col-sm-5,
     .col-sm-7 {
@@ -20,16 +20,19 @@ nav {
     }
 
     padding: 10px 10px 10px 25px;
-
 }
 
 nav .link:hover {
-    color: #2F5D9F
+    color: #324860
+}
+
+nav .link {
+    color: #F3EFEA
 }
 
 .desktop-menu {
     margin-right: 10px;
-    color: #C9A194;
+    color: #F3EFEA;
 }
 
 nav,
@@ -41,13 +44,13 @@ nav,
 }
 
 .navbar-brand {
-    color: #C9A194 !important;
+    color: #F3EFEA !important;
     font-size: 2em;
     padding: 0 1em;
 }
 
 .mobile-menu {
-    color: #C9A194;
+    color: #F3EFEA;
 
     ul {
         padding: 0px;
@@ -58,11 +61,11 @@ nav,
     }
 
     a:hover {
-        background: #C9A194;
-        color: black;
+        background: #F3EFEA;
+        color: #324860;
 
         i {
-            color: black;
+            color: #F3EFEA;
         }
     }
 }
@@ -71,7 +74,7 @@ nav,
 
 .active a {
     background: $navbarColor;
-    border-bottom: solid 5px #C9A194;
+    border-bottom: solid 5px #F3EFEA;
 }
 
 .dropdown-toggle,
@@ -81,6 +84,8 @@ nav,
 }
 
 
+
+
 .navbar-toggler {
-    background-color: #C9A194;
+    background-color: #F3EFEA;
 }
