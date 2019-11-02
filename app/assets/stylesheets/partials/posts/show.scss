@@ -1,0 +1,24 @@
+#single-post-content {
+    padding: 2rem;
+    background-color: #F3EFEA;
+    box-shadow: 10px 29px 74px -9px rgba(0, 0, 0, 0.70);
+    text-align: center;
+    overflow: scroll;
+    margin: auto;
+
+
+    p {
+        margin: 1em 5em;
+    }
+
+    .post-info {
+        color: #1C2835;
+        margin: auto;
+    }
+
+    .posted-by {
+        font-size: 1.2rem;
+        margin: 2em 0;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
