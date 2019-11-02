@@ -1,0 +1,34 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.single-post-card {
+  color: black;
+  padding: 1em;
+  margin: 1em;
+  text-align: left;
+  transition: border 0.1s, background 0.5s;
+  border-radius: 1em;
+  ;
+
+  .post-text {
+    overflow: hidden;
+  }
+
+  a,
+  a:active,
+  a:hover {
+    color: black;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: #9d97a5a1;
+    box-shadow: none;
+    border-radius: 1em;
+  }
+}
+
+.post-content {
+  display: none;
+}

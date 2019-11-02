@@ -36,10 +36,18 @@ a:visited {
     display: none;
 }
 
-.card {
+#main-content {
     padding: 5rem;
     background-color: #F3EFEA;
     box-shadow: 10px 29px 74px -9px rgba(0, 0, 0, 0.70);
+    overflow: scroll;
+}
+
+.card-smaller {
+    padding: 1em;
+    background-color: #736487;
+    box-shadow: 1px 15px 35px -15px rgba(0, 0, 0, 0.70);
+    text-align: center;
 }
 
 .greeting {
