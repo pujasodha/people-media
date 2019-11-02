@@ -5,9 +5,9 @@
 }
 
 #side-menu {
-    padding: 0;
+    background-color: #F3EFEA;
 
-    #links-list {
+    #side-links {
         margin-top: 20px;
         padding: 0;
         font-size: 14px;
@@ -20,11 +20,10 @@
         }
 
         li {
-            min-width: 195px;
-            max-width: 195px;
+            width: auto;
         }
 
-        li,
+        id li,
         li a {
             color: #1C2835;
             text-decoration: none;

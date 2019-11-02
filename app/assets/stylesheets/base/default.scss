@@ -36,7 +36,8 @@ a:visited {
     display: none;
 }
 
-#main-content {
+#main-content,
+.card {
     padding: 5rem;
     background-color: #F3EFEA;
     box-shadow: 10px 29px 74px -9px rgba(0, 0, 0, 0.70);
