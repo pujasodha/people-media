@@ -32,6 +32,14 @@ a:visited {
     text-decoration: none;
 }
 
+.container {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
 .control-label {
     display: none;
 }
@@ -62,5 +70,5 @@ a:visited {
 .login-button,
 .sign-up-button {
     background-color: $navbarColor;
-    color: white !important;
+    color: #F3EFEA !important;
 }

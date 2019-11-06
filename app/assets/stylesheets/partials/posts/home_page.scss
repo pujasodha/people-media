@@ -3,7 +3,7 @@
   They will automatically be included in application.css.
 */
 .single-post-card {
-  color: black;
+  color: #1C2835;
   padding: 1em;
   margin: 1em;
   text-align: left;
@@ -18,7 +18,7 @@
   a,
   a:active,
   a:hover {
-    color: black;
+    color: #1C2835;
   }
 
   &:hover {
@@ -31,4 +31,19 @@
 
 .post-content {
   display: none;
+}
+
+.page-name {
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+  background-color: #F3EFEA !important;
+  font-weight: bold;
+
+  a {
+    color: #1C2835;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
