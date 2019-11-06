@@ -20,7 +20,7 @@ end
 def seed_categories
     hobby = ['Crafts', 'Basketball', 'Soccer', 'Photography', 'Hiking', 'Reading', 'Other']
     study = ['Visual Arts', 'Physics', 'Mathematics', 'Computer Science', 'Biology', 'Health Science', 'Business', 'Economics', 'Language', 'Other']
-    team = ['Development', 'Focus', 'Play']
+    team = ['Developers', 'Focus', 'Play']
 
     hobby.each do |name|
         Category.create(branch: 'hobby', name: name)
