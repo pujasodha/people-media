@@ -76,6 +76,8 @@ end
 # generate dummy text 
 gem 'faker'
 
+gem 'sassc-rails', '~> 2.0.0'
+
 # pagination
 gem 'will_paginate',  '~> 3.1.0'
 
